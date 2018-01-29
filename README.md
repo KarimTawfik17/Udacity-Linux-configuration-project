@@ -6,20 +6,20 @@ Taking a baseline installation of a Linux distribution on a virtual machine and 
 ## Steps made 
 - Created Lightsail instance with Ubuntu OS
 - Made some configurations as : 
-.... 1. Update all currently installed package
-.... 2. Create new user named grader and give it the permission to sudo
-.... 3. Configure UFW to allow only ports ( 80 - 2200 - 123 )
-.... 4. Change SSH port from 22 to 2200
+    1. Update all currently installed package
+    2. Create new user named grader and give it the permission to sudo
+    3. Configure UFW to allow only ports ( 80 - 2200 - 123 )
+    4. Change SSH port from 22 to 2200
 - install the needed applications and dependencies as :
-.... - pip
-.... - apache2
-.... - mod_wsgi
-.... - flask
-.... - sqlalchemy
-.... - oauth2client
-.... - httplib2
-.... - requests
-.... - postgresql
+    - pip
+    - apache2
+    - mod_wsgi
+    - flask
+    - sqlalchemy
+    - oauth2client
+    - httplib2
+    - requests
+    - postgresql
 - configure psql database to serve the web application
 - clone the project repository from [here](https://github.com/KarimTawfik17/Soccer-top-teams)
 - Make a run.wsgi file to serve the application over the mod_wsgi.
